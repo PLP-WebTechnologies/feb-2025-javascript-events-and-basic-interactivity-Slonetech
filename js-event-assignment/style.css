@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+#hoverBox {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px 0;
+  line-height: 100px;
+  text-align: center;
+}
+
+.tab-content {
+  display: none;
+  margin-top: 10px;
+}
+
+.tab-content.active {
+  display: block;
+}
